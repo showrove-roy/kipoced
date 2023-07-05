@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Login</title>
+    <!-- mobile responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+
+    <!-- ** Plugins Needed for the Project ** -->
+    <!-- plugins -->
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css" />
+    <!-- Main Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+    <style>
+        .navbar-left {
+            color: #fff;
+            /* Set the text color to white */
+        }
+
+        .navbar-right {
+            background-color: #fff;
+            /* Set the background color to white */
+        }
+
+        .bg-img {
+            background-color: #6d7f81;
+            /* background-image: url("bg.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center; */
+        }
+
+        .bg-white {
+            background-color: rgba(255, 255, 255, 0.6) !important;
+        }
+
+        .ti-user {
+            padding: 25px;
+            border: 2px solid gray;
+            font-size: 50px;
+            border-radius: 50%;
+        }
+
+        .card {
+            border-radius: 20px;
+        }
+    </style>
+
+</head>
+
+<body class="bg-img">
+
+    <div class="container-fluid mt-lg-5 mt-0">
+        <div class="row">
+            <nav class="col-lg-5 navbar navbar-expand-lg navbar-light rounded-right"
+                style="background-image: linear-gradient(to bottom, #41768c, #041f43);">
+                <a class="navbar-brand" href="#"><img src="lg1.png" alt=""></a>
+                <a class="navbar-brand" href="#"><img src="lg2.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bold text-white" href="#">A Propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bold text-white">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <nav
+                class="col-lg-7 d-none d-lg-flex justify-content-end navbar navbar-expand-lg navbar-light bg-transparent">
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control form-control-lg rounded-pill" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <button class="btn btn-primary btn-lg text-white rounded-pill my-2 my-sm-0 px-4" type="submit"
+                        style="margin-left: -38px;"><i class="ti-search text-white"></i>
+                    </button>
+                </form>
+                <a class="navbar-brand" href="#"><img src="lg1.png" alt="" class="ml-5"></a>
+            </nav>
+        </div>
+        <div class="row mt-5">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+                <div class="card bg-white mb-3 mx-5">
+                    <!-- <img src="profile.jpg" class="card-img-top" style="width:35%;"> -->
+                    <div class="card-body pt-5 text-left">
+                        <p class="text-center mb-5"><i class="ti-user"></i></p>
+                        <div class="form-group d-flex">
+                            <span class="ti-email" style="margin-top:12px;"></span> <!-- Themify icon for lock -->
+                            <input type="email"
+                                class="form-control bg-transparent border-secondary rounded-0 border-left-0 border-right-0 border-top-0"
+                                placeholder="Identifiant">
+                        </div>
+                        <div class="form-group d-flex">
+                            <span class="ti-lock" style="margin-top:12px;"></span> <!-- Themify icon for lock -->
+                            <input type="password"
+                                class="form-control bg-transparent border-secondary rounded-0 border-left-0 border-right-0 border-top-0"
+                                placeholder="Mot de passe">
+                        </div>
+                        <button type="submit" class="btn btn-secondary btn-sm">se connector</button>
+                    </div>
+                    <div class="card-footer p-4 text-center">
+                        <a href="" class="font-weight-bold text-secondary">S'inscrire</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4"></div>
+        </div>
+    </div>
+
+    <section class="p-md-5 py-5">   
+        <div class="container-fluid "> 
+            <div class="row">
+                <div class="col-6 col-lg-3 col-md-6 my-2 d-flex justify-content-center"> 
+                    <a href="index.html">
+                        <button class="btn btn-danger mx-2">Home</button> 
+                    </a>
+                </div>
+                <div class="col-6 col-lg-3 col-md-6 my-2 d-flex justify-content-center"> 
+                    <a href="design3.html">
+                        <button class="btn btn-danger mx-2">Design 3</button> 
+                    </a>
+                </div>
+                <div class="col-6 col-lg-3 col-md-6 my-2 d-flex justify-content-center"> 
+                    <a href="design4.html">
+                        <button class="btn btn-danger mx-2">Design 4</button> 
+                    </a>
+                </div>
+                <div class="col-6 col-lg-3 col-md-6 my-2 d-flex justify-content-center"> 
+                    <a href="design5.html">
+                        <button class="btn btn-danger mx-2">Design 5</button> 
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- plugins -->
+    <script src="plugins/jQuery/jquery.min.js"></script>
+    <script src="plugins/bootstrap/bootstrap.min.js"></script>
+</body>
+
+</html>
