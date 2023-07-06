@@ -16,6 +16,10 @@
     <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css" />
     <!-- Main Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
+      <!-- Vendor CSS Files -->
+     <!-- <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+     <!-- <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"> -->
     <style>
         .navbar-left {
             color: #fff;
@@ -97,34 +101,30 @@
                             <img src="assets/img/feature.jpg" class="img-fluid mx-auto" alt="img">
                         </div>
                         <div class="col-12 col-md-6 col-lg-6 mt-5">
-                            <div class="w-lg-75 mx-auto text-justify mt-5">
-                                <h1 class="text-justify text-darkblue fw-bold"> <span class="text-primary">Trouvez</span> les Informations legales des enterprises en un clic.</h1>
-                                <h2 class="text-justify  text-black fw-light"> Decouvrez less details essentials sur les Enterprises via leur Numero SIREN, Nom d'Enterprise ou Dirigeant</h2>
+                            <div class="w-lg-75 mx-auto mt-5">
+                                <h1 id="indexTitle" class="fw-md-bold"> <span class="text-primary">Trouvez</span> les Informations legales des enterprises en un clic.</h1>
+                                <h2 class="text-justify fs-6 mb-3"> Decouvrez less details essentials sur les Enterprises via leur Numero SIREN, Nom d'Enterprise ou Dirigeant</h2>
         
                             </div>  
                                 
                                 <!-- Input group -->
                                 <div class="w-auto d-flex justify-content-center my-3">
-                                    <div class="input-group w-auto">
-                                        <input
-                                        type="text"
-                                        class="form-control rounded-5"
-                                        placeholder="nom d'Enterprise ou dirigeant"
-                                        aria-label="nom d'Enterprise ou dirigeant"
-                                        aria-describedby="button-addon1"
-                                        />
-                                        <button style="left: -40px;"   class="btn btn-primary rounded-5" type="button" id="button-addon1" data-mdb-ripple-color="dark">
-                                            <i class="bi-search text-white"></i>
+                                    
+                                    <form class="form-inline my-2 my-lg-0">
+                                        <input class="form-control form-control-lg" type="search" placeholder="nom d'Enterprise ou dirigeant"
+                                            aria-label="nom d'Enterprise ou dirigeant" style="border-radius: 1rem; font-size: 1rem; width: 20rem; padding: 1.4rem 1rem;">
+                                        <button class="btn btn-primary btn-lg text-white my-2 my-sm-0 px-4" type="submit"
+                                            style="margin-left: -38px; border-radius: 1rem;"><i class="ti-search text-white"></i>
                                         </button>
-                                    </div>
+                                    </form>
                                 </div> 
                                                 
                                 <!-- social links -->
-                                <div class="text-center my-5">
-                                    <a href="web.facebook.com" class="mx-1"> <i class="bi-facebook rounded-circle  social"></i> </a>
-                                    <a href="instagram.com" class="mx-1"> <i class="bi-instagram rounded-circle social"></i> </a> 
-                                   <a href="linkedin.com" class="mx-1"><i class="bi-linkedin rounded-circle social"></i> </a> 
-                                    <a href="twitter.com" class="mx-1"><i class="bi-twitter rounded-circle social" ></i> </a>
+                                <div class="text-center my-3 d-flex justify-content-center">
+                                    <a href="web.facebook.com" class="mx-1 social"> <i class="bi-facebook rounded-circle  "></i> </a>
+                                    <a href="instagram.com" class="mx-1 social"> <i class="bi-instagram rounded-circle "></i> </a> 
+                                   <a href="linkedin.com" class="mx-1 social"><i class="bi-linkedin rounded-circle "></i> </a> 
+                                    <a href="twitter.com" class="mx-1 social"><i class="bi-twitter rounded-circle " ></i> </a>
                                 </div>
                                 <h3 class="text-center text-black">www.kipoced.com</h3>
                             </div>

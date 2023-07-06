@@ -1,12 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
 input {
   font-size: calc(15px + 0.390625vw);
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #fff;
   background-color: #eee;
 }
@@ -17,27 +16,16 @@ a {
   font-size: calc(10px + 0.390625vw);
 }
 
-h1 {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-}
-
 h2,
 h3 {
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
 }
 a,
 p,
 h4,
 h5,
 h6 {
-  font-family: "Lato", sans-serif;
   font-weight: 400;
-}
-
-h1 {
-  font-size: 1.6rem;
 }
 
 h2 {
@@ -61,46 +49,60 @@ h5 {
   font-size: 0.6rem;
 }
 
-  .text-green {
-    color: green;
-  }
-  /*--------------------------------------------------------------
+.text-darkblue {
+  color: darkblue;
+}
+.social {
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  background-color: black;
+  color: #fff;
+}
+/*--------------------------------------------------------------
   # Back to top button
   --------------------------------------------------------------*/
-  .back-to-top {
-    position: fixed;
-    visibility: hidden;
-    opacity: 0;
-    right: 15px;
-    bottom: 15px;
-    z-index: 996;
-    background: #51ff7f;
-    width: 40px;
-    height: 40px;
-    border-radius: 4px;
-    transition: all 0.4s;
-  }
-  
-  .back-to-top i {
-    font-size: calc(15px + 0.390625vw);
-    color: #151515;
-    line-height: 0;
-  }
-  
-  .back-to-top:hover {
-    background: #151515;
-  }
-  
-  .back-to-top:hover i {
-    color: #51ff7f;
-  }
-  
-  .back-to-top.active {
-    visibility: visible;
-    opacity: 1;
-  }
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #51ff7f;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
 
-  .boxs,
+.back-to-top i {
+  font-size: calc(15px + 0.390625vw);
+  color: #151515;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: #151515;
+}
+
+.back-to-top:hover i {
+  color: #51ff7f;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+#indexTitle {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.boxs,
 .box {
   padding: 10px 5px;
   position: relative;
